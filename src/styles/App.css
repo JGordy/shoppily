@@ -1,24 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/*nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}*/
+
+.top_nav {
+  display: flex;
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.sub_nav {
+  /*display: flex;*/
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 16px;
+}
+
+.nav_links {
+  list-style: none;
+  padding: 10px;
+}
+
+.products {
+  list-style: none;
+}
+
+.products a {
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.products div {
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+}
+
+.sub_nav_links {
+  list-style: none;
+  padding: 10px;
+}
+
+.google:hover {
+  background-color: #47B04B;
+}
+
+.microsoft:hover {
+  background-color: deepskyblue;
+}
+
+.apple:hover {
+  background-color: indianred;
+}
+
+.sub_nav_links a {
+  color: black;
+  padding: 5px;
+}
+
+/*.sub_nav_links:hover > a {
+  color: white;
+}*/
+
+nav ul ul {
+  position: absolute;
+  left: -99999px;
+}
+
+nav ul li:hover {
+  background-color: gray;
+  border-radius: 3px;
+}
+
+nav ul li:hover:last-child {
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  padding-right: 12px;
+}
+
+nav ul li:hover > a, nav ul li:hover > div {
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+nav ul li:hover > .sub_nav {
+  background-color: gray;
+  position: absolute;
+  left: 343px;
+  top: 100px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+nav ul li:hover > .sub_nav > .sub_nav_links {
+  margin-top: 5px;
+}
+
+.selected {
+  color: red;
+}
+
+.selected:visited {
+  color: red;
+}
+
+/*  Home Page Styling  */
+.Home {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
+.Home div {
+width: 50%;
+}
+
+img {
+  height: 50%;
+}
+
+/* Google page styling */
+.google_device {
+  background-color: #eee;
+  /*border: 1px solid gray;*/
+  display: flex;
+  height: 300px;
+  margin: 50px auto;
+  width: 80%;
+}
+
+.google_device img {
+  width: 400px;
+  height: 100%;
+}
+
+.google_device div {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.google_device p {
+width: 50%;
+}
+
+.cart_add {
+align-self: flex-end;
+margin-right: 30px;
 }
