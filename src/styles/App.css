@@ -30,10 +30,16 @@ header {
 .nav_links {
   list-style: none;
   padding: 10px;
+  text-align: center;
+  width: 150px;
 }
 
 .products {
+  font-family: 'Caveat', cursive;
+  /*font-size: 24px;*/
   list-style: none;
+  text-align: center;
+  width: 111px;
 }
 
 .products a {
@@ -60,8 +66,10 @@ nav a {
 }
 
 .sub_nav_links {
+  font-family: sans-serif;
   list-style: none;
   padding: 10px;
+  width: 111px;
 }
 
 .google:hover {
@@ -113,8 +121,8 @@ nav ul li:hover > a, nav ul li:hover > div {
 nav ul li:hover > .sub_nav {
   background-color: #eee;
   position: absolute;
-  left: 343px;
-  top: 115px;
+  left: 450px;
+  top: 120px;
 }
 
 nav ul li:hover > .sub_nav > .sub_nav_links {
@@ -123,10 +131,13 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
 
 .selected {
   color: coral;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
 }
 
 .selected:visited {
   color: coral;
+  font-family: 'Caveat', cursive;
 }
 
 /*.sub_nav_links .selected {
@@ -143,7 +154,7 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
 }
 
 .Home div {
-width: 50%;
+  width: 50%;
 }
 
 img {
@@ -207,4 +218,39 @@ margin-right: 30px;
   font-size: 32px;
   height: 100%;
   width: 100%;
+}
+
+/* About page styling */
+
+.About {
+  background-image: url("../images/home/about_us.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 485px;
+  margin: 0px auto;
+  width: 80%;
+}
+
+.About h1 {
+  color: black;
+}
+
+.About p {
+  /*text-shadow: 1px 1px 1px black;*/
+  font-size: 24px;
+  line-height: 1.6em;
+  margin: 0px auto;
+  width: 80%;
+}
+
+/* icon styling */
+.Contact a {
+  color: black;
+}
+
+.fa_facebook_square {
+  color: black;
 }
