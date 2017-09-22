@@ -63,6 +63,7 @@ nav a {
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   font-size: 16px;
+  text-align: left;
 }
 
 .sub_nav_links {
@@ -183,7 +184,8 @@ img {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 20px;
 }
 
 .google_device p {
@@ -192,7 +194,36 @@ width: 50%;
 
 .cart_add {
 align-self: flex-end;
-margin-right: 30px;
+border-top-left-radius: 3px;
+color: white;
+padding: 10px 40px;
+}
+
+.google_cart_add {
+  background-color: #47B04B;
+}
+
+.google_cart_add:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.apple_cart_add {
+  background-color: indianred;
+}
+
+.apple_cart_add:hover {
+  background-color: firebrick;
+  color: white;
+}
+
+.ms_cart_add {
+  background-color: deepskyblue;
+}
+
+.ms_cart_add:hover {
+  background-color: dodgerblue;
+  color: white;
 }
 
 .go_cart {
@@ -251,6 +282,52 @@ margin-right: 30px;
   color: black;
 }
 
-.fa_facebook_square {
+a .fa {
   color: black;
+  font-size: 56px;
+}
+
+/* Contact page styling */
+
+.Contact {
+  background-color: #eee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.social_links {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 20%;
+}
+
+.social_span {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.social {
+  width: 50%;
+}
+
+.email_link {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+textarea {
+  border-radius: 5px;
+  height: 100px;
+  padding: 5px;
+  resize: none;
+  width: 50%;
 }

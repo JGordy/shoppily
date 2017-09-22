@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import 'font-awesome/css/font-awesome.min.css'; 
 
 import BaseLayout from './components/Layout';
 import Apple from './components/Apple';
