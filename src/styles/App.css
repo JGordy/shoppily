@@ -7,6 +7,12 @@
   text-align: center;
 }
 
+header {
+  font-family: 'Caveat', cursive;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
 /*  nav styling  */
 
 /*nav {
@@ -85,7 +91,7 @@ nav ul ul {
 }
 
 nav ul li:hover {
-  background-color: gray;
+  background-color: #eee;
   border-radius: 3px;
 }
 
@@ -97,14 +103,18 @@ nav ul li:hover:last-child {
 }
 
 nav ul li:hover > a, nav ul li:hover > div {
+  color: coral;
+}
+
+.apple:hover a, .google:hover a, .microsoft:hover a {
   color: white;
 }
 
 nav ul li:hover > .sub_nav {
-  background-color: gray;
+  background-color: #eee;
   position: absolute;
   left: 343px;
-  top: 100px;
+  top: 115px;
 }
 
 nav ul li:hover > .sub_nav > .sub_nav_links {
@@ -119,9 +129,9 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
   color: coral;
 }
 
-.sub_nav_links .selected {
+/*.sub_nav_links .selected {
   color: white;
-}
+}*/
 
 /*  Home Page Styling  */
 
