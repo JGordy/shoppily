@@ -17,7 +17,7 @@ export default class Apple extends Component {
     })
     return(
       <div className='Apple'>
-        <h1>Apple Page</h1>
+        {devices}
       </div>
     );
   }

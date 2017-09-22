@@ -46,6 +46,9 @@ export default class BaseLayout extends Component {
               </ul>
             </li>
           </ul>
+          <div className="go_cart">
+          <a href="#"><i className="material-icons">shopping_cart</i></a>
+          </div>
         </nav>
         {this.props.children}
       </div>

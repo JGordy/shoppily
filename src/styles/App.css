@@ -7,6 +7,8 @@
   text-align: center;
 }
 
+/*  nav styling  */
+
 /*nav {
   position: -webkit-sticky;
   position: sticky;
@@ -17,13 +19,6 @@
   display: flex;
   font-size: 20px;
   padding: 10px 0px 0px 0px;
-}
-
-.sub_nav {
-  /*display: flex;*/
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  font-size: 16px;
 }
 
 .nav_links {
@@ -47,6 +42,15 @@
 
 nav a {
   color: black;
+}
+
+/* sub nav styling */
+
+.sub_nav {
+  /*display: flex;*/
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 16px;
 }
 
 .sub_nav_links {
@@ -108,14 +112,19 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
 }
 
 .selected {
-  color: red;
+  color: coral;
 }
 
 .selected:visited {
-  color: red;
+  color: coral;
+}
+
+.sub_nav_links .selected {
+  color: white;
 }
 
 /*  Home Page Styling  */
+
 .Home {
   display: flex;
   flex-wrap: nowrap;
@@ -134,7 +143,9 @@ img {
 /* Google page styling */
 .google_device {
   background-color: #eee;
-  /*border: 1px solid gray;*/
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
   display: flex;
   height: 300px;
   margin: 50px auto;
@@ -161,4 +172,29 @@ width: 50%;
 .cart_add {
 align-self: flex-end;
 margin-right: 30px;
+}
+
+.go_cart {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+.go_cart a {
+  background-color: coral;
+  border-radius: 50%;
+  color: white;
+  padding: 10px 15px;
+}
+
+.go_cart i {
+  font-size: 32px;
+  height: 100%;
+  width: 100%;
 }
