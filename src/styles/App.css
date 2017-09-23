@@ -35,7 +35,7 @@ header {
 }
 
 .products {
-  font-family: 'Caveat', cursive;
+  /*font-family: 'Caveat', cursive;*/
   /*font-size: 24px;*/
   list-style: none;
   text-align: center;
@@ -120,7 +120,7 @@ nav ul li:hover > a, nav ul li:hover > div {
 }
 
 nav ul li:hover > .sub_nav {
-  background-color: #eee;
+  background: linear-gradient(#eee,#aaa);
   position: absolute;
   left: 450px;
   top: 120px;
@@ -132,13 +132,13 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
 
 .selected {
   color: coral;
-  font-family: 'Caveat', cursive;
-  font-size: 20px;
+  /*font-family: 'Caveat', cursive;*/
+  /*font-size: 20px;*/
 }
 
 .selected:visited {
   color: coral;
-  font-family: 'Caveat', cursive;
+  /*font-family: 'Caveat', cursive;*/
 }
 
 /*.sub_nav_links .selected {
@@ -338,7 +338,7 @@ a .fa {
 
 textarea {
   border-radius: 5px;
-  height: 100px;
+  height: 200px;
   padding: 5px;
   resize: none;
   width: 50%;
