@@ -152,25 +152,67 @@ nav ul li:hover > .sub_nav > .sub_nav_links {
   flex-wrap: nowrap;
   justify-content: flex-start;
   overflow: scroll;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .Home div {
-  width: 50%;
+  height: 500px;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
-img {
-  height: 50%;
+.Home img {
+  height: 100%;
+  margin: 0px 30px;
+}
+
+.Home a {
+  border-radius: 3px;
+  color: white;
+  margin-top: -50px;
+  padding: 10px;
+}
+
+.Home a:hover {
+  text-decoration: none;
+}
+
+.shop_google {
+  background-color: #47B04B;
+}
+
+.shop_google:hover {
+  background-color: forestgreen;
+}
+
+.shop_ms {
+  background-color: deepskyblue;
+}
+
+.shop_ms:hover {
+  background-color: dodgerblue;
+}
+
+.shop_apple {
+  background-color: indianred;
+}
+
+.shop_apple:hover {
+  background-color: firebrick;
 }
 
 /* Google page styling */
 .google_device {
-  background-color: #eee;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+  /*background-color: #eee;*/
+  /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);*/
+  /*border-bottom: 1px solid gray;*/
+  /*border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;*/
   display: flex;
   height: 300px;
-  margin: 50px auto;
+  margin: 150px auto;
+  padding-bottom: 5px;
   width: 80%;
 }
 
@@ -193,7 +235,7 @@ width: 70%;
 }
 
 .cart_add {
-align-self: flex-end;
+/*align-self: flex-end;*/
 border-top-left-radius: 3px;
 color: white;
 padding: 10px 40px;
