@@ -33,21 +33,21 @@ export default class BaseLayout extends Component {
               <ul className='sub_nav'>
                 <li className="sub_nav_links google">
                   <NavLink activeClassName='selected' style={navStyle}
-                  to='/Google'>Google</NavLink>
+                  to='/google'>Google</NavLink>
                 </li>
                 <li className="sub_nav_links microsoft">
                   <NavLink activeClassName='selected' style={navStyle}
-                  to='/Microsoft'>Microsoft</NavLink>
+                  to='/microsoft'>Microsoft</NavLink>
                 </li>
                 <li className="sub_nav_links apple">
                   <NavLink activeClassName='selected' style={navStyle}
-                  to='/Apple'>Apple</NavLink>
+                  to='/apple'>Apple</NavLink>
                 </li>
               </ul>
             </li>
           </ul>
           <div className="go_cart">
-          <a href="#"><i className="material-icons">shopping_cart</i></a>
+          <div><i className="material-icons">shopping_cart</i></div>
           </div>
         </nav>
         {this.props.children}

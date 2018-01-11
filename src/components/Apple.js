@@ -10,8 +10,8 @@ export default class Apple extends Component {
                 <h3>{device.name}</h3>
                 <h5 className="price">{device.price}</h5>
                 <p className="specs">{device.specs}</p>
-                <a href="#" className="apple_cart_add cart_add">
-                <i className="material-icons">add_shopping_cart</i></a>
+                <div className="apple_cart_add cart_add">
+                <i className="material-icons">add_shopping_cart</i></div>
               </div>
              </div>
     })

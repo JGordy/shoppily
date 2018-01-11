@@ -24,8 +24,7 @@ ReactDOM.render(
           <Route path='/about' component={About}/>
           <Route path='/contact' component={Contact}/>
           <Route path='/google' component={Google}/>
-          <Route path='/microsoft'
-          component={Microsoft}/>
+          <Route path='/microsoft' component={Microsoft}/>
           <Route path='/apple'
           component={Apple}/>
         </Switch>
